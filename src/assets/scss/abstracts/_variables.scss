@@ -1,0 +1,8 @@
+@import "../../../../node_modules/uswds/src/stylesheets/core/variables";
+
+// Overriding the USWDS font and image directories
+$font-path:   "../fonts";
+$image-path:  "../img";
+
+// Overridding the Font Awesome font directory
+$fa-font-path: "../fonts";
