@@ -19,11 +19,17 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "assets/scss/main.scss"
+        "scss/main.scss"
       ],
       "scripts": [
         "../node_modules/uswds/dist/js/uswds.min.js"
       ],
+      "stylePreprocessorOptions": {
+        "includePaths": [
+          "scss",
+          "app"
+        ]
+      },
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
